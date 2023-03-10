@@ -1,0 +1,125 @@
+$primary-color: #1a1b21;
+$secondary-color: #f5f5f5;
+$primary-font-weight: 700;
+$secondary-font-weight: 400;
+$title-font-size: 16px;
+$content-font-size: 10px;
+
+.card {
+  background-color: #23252c;
+  width: 550px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  &--header {
+    margin-bottom: 9px;
+    img {
+      width: 317px;
+      height: 317px;
+      opacity: 0.4;
+      border-radius: 10px 10px 0px 0px;
+      object-fit: cover;
+      margin: 30px 20px;
+    }
+  }
+
+  &--body {
+    background-color: $primary-color;
+    text-align: center;
+    padding: 0 35px;
+
+    &--fullName {
+      font-weight: $primary-font-weight;
+      font-size: 25px;
+      line-height: 30px;
+      color: $secondary-color;
+      margin-bottom: 0px;
+    }
+    &--title {
+      font-weight: $secondary-font-weight;
+      font-size: 13px;
+      line-height: 15px;
+      color: #f3bf99;
+    }
+
+    &--email {
+      font-weight: $secondary-font-weight;
+      font-size: 10px;
+      line-height: 150%;
+      color: $secondary-color;
+    }
+
+    &--btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 247px;
+      height: 34px;
+      background: $secondary-color;
+      border: 1px solid #d1d5db;
+      box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+      border-radius: 6px;
+      padding: 9px 13px;
+      margin: 5px 35px;
+
+      &--icon {
+        padding: 10px;
+        width: 16px;
+        height: 16px;
+      }
+    }
+  }
+
+  &--info {
+    background-color: $primary-color;
+    padding: 0px 35px;
+    color: $secondary-color;
+
+    &--about {
+      padding: 10px 30px;
+      &--title {
+        font-weight: $primary-font-weight;
+        font-size: $title-font-size;
+        margin-bottom: 0px;
+      }
+
+      &--content {
+        font-weight: $secondary-font-weight;
+        font-size: $content-font-size;
+      }
+    }
+
+    &--interests {
+      padding: 0px 30px;
+      &--title {
+        font-weight: $primary-font-weight;
+        font-size: $title-font-size;
+        margin-top: 5px;
+        margin-bottom: 0px;
+      }
+
+      &--content {
+        font-weight: $secondary-font-weight;
+        font-size: $content-font-size;
+        margin-bottom: 30px;
+      }
+    }
+  }
+  &--footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 64px;
+    background: #161619;
+    border-radius: 0px 0px 10px 10px;
+
+    &--icon {
+      height: 25px;
+      width: 25px;
+      margin: 25px 15px;
+    }
+  }
+}

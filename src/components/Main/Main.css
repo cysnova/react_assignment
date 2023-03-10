@@ -1,0 +1,107 @@
+.card {
+  background-color: #23252c;
+  width: 550px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.card--header {
+  margin-bottom: 9px;
+}
+.card--header img {
+  width: 317px;
+  height: 317px;
+  opacity: 0.4;
+  border-radius: 10px 10px 0px 0px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin: 30px 20px;
+}
+.card--body {
+  background-color: #1a1b21;
+  text-align: center;
+  padding: 0 35px;
+}
+.card--body--fullName {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  color: #f5f5f5;
+  margin-bottom: 0px;
+}
+.card--body--title {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  color: #f3bf99;
+}
+.card--body--email {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 150%;
+  color: #f5f5f5;
+}
+.card--body--btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 247px;
+  height: 34px;
+  background: #f5f5f5;
+  border: 1px solid #d1d5db;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  padding: 9px 13px;
+  margin: 5px 35px;
+}
+.card--body--btn--icon {
+  padding: 10px;
+  width: 16px;
+  height: 16px;
+}
+.card--info {
+  background-color: #1a1b21;
+  padding: 0px 35px;
+  color: #f5f5f5;
+}
+.card--info--about {
+  padding: 10px 30px;
+}
+.card--info--about--title {
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: 0px;
+}
+.card--info--about--content {
+  font-weight: 400;
+  font-size: 10px;
+}
+.card--info--interests {
+  padding: 0px 30px;
+}
+.card--info--interests--title {
+  font-weight: 700;
+  font-size: 16px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+.card--info--interests--content {
+  font-weight: 400;
+  font-size: 10px;
+  margin-bottom: 30px;
+}
+.card--footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 64px;
+  background: #161619;
+  border-radius: 0px 0px 10px 10px;
+}
+.card--footer--icon {
+  height: 25px;
+  width: 25px;
+  margin: 25px 15px;
+}/*# sourceMappingURL=Main.css.map */
